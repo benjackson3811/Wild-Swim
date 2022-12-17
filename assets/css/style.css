@@ -7,14 +7,19 @@
 }
 
 
-
 body {
     font-family: quicksand, sans-serif;
     font-weight: 400;
-    color:#A87A64
+    color:#A87A64;
 }
 
 /* Headings and logo*/
+
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: #000000;
+}
 
 h1, h2 {
     font-family:noto+sans+jp,sans-serif;
@@ -27,8 +32,27 @@ h1, h2 {
 .logo {
     float:left;
     font-size: 300%;
-}
+    }
+
+/* Menu Navigation*/
 
 .navigation-options {
-    float:right;
+    font-size: 110%;
+    letter-spacing: 3px;
+    }
+
+.logo, .navigation-options {
+    line-height: 75px;
 }
+
+.navigation-options li {
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
+   }
+
+.navigation-options a {
+    text-decoration: none;
+    color: #fdfdff;
+  }
+
