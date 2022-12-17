@@ -11,4 +11,24 @@
 body {
     font-family: quicksand, sans-serif;
     font-weight: 400;
+    color:#A87A64
+}
+
+/* Headings and logo*/
+
+h1, h2 {
+    font-family:noto+sans+jp,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fdfdff;
+    ;
+}
+
+.logo {
+    float:left;
+    font-size: 300%;
+}
+
+.navigation-options {
+    float:right;
 }
