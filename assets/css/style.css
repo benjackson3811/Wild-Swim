@@ -94,3 +94,47 @@ h1, h2 {
 #hero-image-about > h3 {
     color: #fdfdff;
 }
+
+
+/* benefits*/
+
+#benefits-section {
+    position:relative;
+}
+
+#main-benefits {
+    height: 75px;
+    background-color: #000000;
+
+    font-family:quicksand,sans-serif;
+    text-transform: capitalize;
+    font-size: 75%;
+    letter-spacing: 3px;
+    line-height: 75px;
+   }
+
+#benefits-left {
+    padding-top: 30px;
+    width: 50%;
+    float:left;
+    background-color: #fdfdff;
+    }
+
+#benefits-right {
+    padding-top: 30px;
+    width:50%;
+    float:right;
+    background-color: #fdfdff;
+}
+
+/* Times to swim table*/
+
+#table {
+    height: 300px;
+    width: 33%;
+    margin: 0px 500px;
+    padding: 20px 100px;
+    border-style: solid;
+    border: 5px;
+    border-color: #000000;
+}
