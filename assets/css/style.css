@@ -19,8 +19,7 @@ body {
     height: 75px;
     width: 100%;
     background-color: #000000;
-    position: fixed;
-}
+    }
 
 h1, h2 {
     font-family:noto+sans+jp,sans-serif;
@@ -33,6 +32,7 @@ h1, h2 {
 .logo {
     float:left;
     font-size: 300%;
+    margin-left: 25px;
     }
 
 /* Menu Navigation*/
@@ -59,11 +59,38 @@ h1, h2 {
 
 /* hero image*/
 
+#hero-section {
+    position: relative;
+}
+
 #hero-image {
     height: 700px;
     width: 45%;
     background: url(../images/hero-image-1.webp) center center;
-    padding: none;
     border-style: none;
-    margin: 0px 400px;
+    margin: 0px 500px;
+}
+
+#hero-image-about{
+    font-size: 110%;
+    font-family:noto+sans+jp,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    width: 350px;
+    height: 250px;
+
+    padding-top: 50px;
+    padding-left: 10px;
+
+    background-color:#000000;
+
+    bottom: 150px;
+    right: 350px;
+
+    position: absolute;
+}
+
+#hero-image-about > h3 {
+    color: #fdfdff;
 }
