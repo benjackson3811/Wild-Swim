@@ -21,7 +21,7 @@ body {
     background-color: #000000;
     }
 
-h1, h2 {
+h1 {
     font-family:noto+sans+jp,sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -29,6 +29,14 @@ h1, h2 {
     ;
 }
 
+h2 {
+    font-family:noto+sans+jp,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+    margin: 20px;
+    ;
+}
 .logo {
     float:left;
     font-size: 300%;
@@ -68,7 +76,8 @@ h1, h2 {
     width: 45%;
     background: url(../images/hero-image-1.webp) center center;
     border-style: none;
-    margin: 0px 500px;
+    margin: 100px 500px;
+    
 }
 
 #hero-image-about{
@@ -98,8 +107,12 @@ h1, h2 {
 
 /* benefits*/
 
-#benefits-section {
-    position:relative;
+#main-benefits, .benefits-left, .benefits-right, .table, .what-you-need {
+    letter-spacing: 3px;
+    line-height: 75px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
 }
 
 #main-benefits {
@@ -108,33 +121,50 @@ h1, h2 {
 
     font-family:quicksand,sans-serif;
     text-transform: capitalize;
-    font-size: 75%;
-    letter-spacing: 3px;
-    line-height: 75px;
+
+    margin-top: 100px;
    }
 
-#benefits-left {
+.benefits-left {
     padding-top: 30px;
-    width: 50%;
+    width: 45%;
     float:left;
-    background-color: #fdfdff;
+    margin-left:20px;
     }
 
-#benefits-right {
+.benefits-right {
     padding-top: 30px;
-    width:50%;
-    float:right;
-    background-color: #fdfdff;
+    width: 45%;
+    float:right;    
+}
+
+.table {
+    width: 45%;
+    float:left;
+}
+
+.what-you-need {
+    width: 45%;
+    float:right; 
 }
 
 /* Times to swim table*/
 
 #table {
-    height: 300px;
+    height: 200px;
     width: 33%;
-    margin: 0px 500px;
+    margin: 0px 300px;
     padding: 20px 100px;
-    border-style: solid;
-    border: 5px;
-    border-color: #000000;
+    color: #A87A64;
+}
+
+#times-of-the-year {
+    height: 75px;
+    width: 100%;
+    
+    font-family:quicksand,sans-serif;
+    text-transform: capitalize;
+    font-size: 100%;
+    letter-spacing: 3px;
+    line-height: 75px;
 }
