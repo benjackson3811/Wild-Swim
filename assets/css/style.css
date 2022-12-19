@@ -10,60 +10,62 @@
 body {
     font-family: quicksand, sans-serif;
     font-weight: 400;
-    color:#A87A64;
+    color: #A87A64;
 }
 
 /* Headings and logo*/
 
-#header {
+header {
     height: 75px;
     width: 100%;
     background-color: #000000;
-    }
+}
 
 h1 {
-    font-family:noto+sans+jp,sans-serif;
-    text-transform: uppercase;
+    font-family: noto+sans+jp, sans-serif;
+    text-transform: capitalize;
     letter-spacing: 3px;
     color: #fdfdff;
     ;
 }
 
 h2 {
-    font-family:noto+sans+jp,sans-serif;
-    text-transform: uppercase;
+    font-family: noto+sans+jp, sans-serif;
+    text-transform: capitalize;
     letter-spacing: 3px;
     color: #000000;
     margin: 20px;
     ;
 }
+
 .logo {
-    float:left;
+    float: left;
     font-size: 300%;
     margin-left: 25px;
-    }
+}
 
 /* Menu Navigation*/
 
 .navigation-options {
     font-size: 110%;
     letter-spacing: 3px;
-    }
+}
 
-.logo, .navigation-options {
+.logo,
+.navigation-options {
     line-height: 75px;
 }
 
 .navigation-options li {
-    float:right;
+    float: right;
     list-style-type: none;
     margin-right: 30px;
-   }
+}
 
 .navigation-options a {
     text-decoration: none;
     color: #fdfdff;
-  }
+}
 
 /* hero image*/
 
@@ -79,22 +81,21 @@ h2 {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    
+
 }
 
-#hero-image-about{
+#hero-image-about {
     font-size: 110%;
-    font-family:noto+sans+jp,sans-serif;
-    text-transform: uppercase;
+    font-family: noto+sans+jp, sans-serif;
     letter-spacing: 3px;
-    
-    width: 350px;
-    height: 250px;
 
-    padding-top: 50px;
+    width: 420px;
+    height: 150px;
+
     padding-left: 10px;
+    padding-top: 5px;
 
-    background-color:#000000;
+    background-color: #000000;
 
     bottom: 50px;
     right: 450px;
@@ -102,7 +103,7 @@ h2 {
     position: absolute;
 }
 
-#hero-image-about > h3 {
+#hero-image-about > h2, h3 {
     color: #fdfdff;
 }
 
@@ -110,11 +111,14 @@ h2 {
 /* benefits*/
 
 .benefits-section {
-    height: 100px;
-    width: 50%;
+    height: 300px;
+    width: 100%;
 }
 
-#main-benefits, .benefits-left, .benefits-right, .table, .what-you-need {
+#main-benefits,
+.benefits-left,
+.benefits-right
+{
     letter-spacing: 3px;
     line-height: 75px;
 }
@@ -123,52 +127,76 @@ h2 {
     height: 75px;
     background-color: #000000;
 
-    font-family:quicksand,sans-serif;
+    font-family: quicksand, sans-serif;
     text-transform: capitalize;
 
-   }
+}
 
 #benefits-left {
-    float:left;
-    padding-left:100px;
-    }
+    float: left;
+}
 
 #benefits-right {
-    padding-left:100px;
-    float:right;    
+    float: right;
+}
+
+
+/* Equipment needed */
+
+.what-is-needed-section {
+    height: 300px;
+    width: 100%;
+}
+
+#what-is-needed,
+.equipment, .table {
+    line-height: 75px;
+}
+
+#what-is-needed {
+    height: 75px;
+    background-color: #000000;
+
+    font-family: quicksand, sans-serif;
+    text-transform: capitalize;
 }
 
 .table {
-    width: 33%;
-    float:left;
-    padding-left:100px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
 }
 
-hr {
-    border-top: 2px solid #000000;
-}
+.equipment {
+    float: left;
 
-.what-you-need {
-    width: 33%;
-    float:right; 
-    padding-left:100px;
 }
 
 /* Times to swim table*/
 
 #table {
-    height: 200px;
-    width: 33%;
-    margin: 0px 300px;
-    padding: 20px 100px;
     color: #A87A64;
+    float: right;
 }
 
-#times-of-the-year {
-    width: 33%;
-    
-    font-family:quicksand,sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    line-height: 75px;
+
+/*Footer*/
+
+footer {
+    clear: both;
+    position: relative;
+    height: 75px;
+    width: 100%;
+    margin-top: -75px;
+    background-color: #000000;
 }
+
+footer i {
+    color: #fdfdff;
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+}
+
+/* Media Queries*/
+
