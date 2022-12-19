@@ -73,10 +73,12 @@ h2 {
 
 #hero-image {
     height: 700px;
-    width: 45%;
-    background: url(../images/hero-image-1.webp) center center;
-    border-style: none;
-    margin: 100px 500px;
+    width: 100%;
+    background: url(../images/hero-image-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
     
 }
 
@@ -94,8 +96,8 @@ h2 {
 
     background-color:#000000;
 
-    bottom: 150px;
-    right: 350px;
+    bottom: 50px;
+    right: 450px;
 
     position: absolute;
 }
@@ -107,12 +109,14 @@ h2 {
 
 /* benefits*/
 
+.benefits-section {
+    height: 100px;
+    width: 50%;
+}
+
 #main-benefits, .benefits-left, .benefits-right, .table, .what-you-need {
     letter-spacing: 3px;
     line-height: 75px;
-    border-style: solid;
-    border-width: 1px;
-    margin-left: 20px;
 }
 
 #main-benefits {
@@ -122,30 +126,32 @@ h2 {
     font-family:quicksand,sans-serif;
     text-transform: capitalize;
 
-    margin-top: 100px;
    }
 
-.benefits-left {
-    padding-top: 30px;
-    width: 45%;
+#benefits-left {
     float:left;
-    margin-left:20px;
+    padding-left:100px;
     }
 
-.benefits-right {
-    padding-top: 30px;
-    width: 45%;
+#benefits-right {
+    padding-left:100px;
     float:right;    
 }
 
 .table {
-    width: 45%;
+    width: 33%;
     float:left;
+    padding-left:100px;
+}
+
+hr {
+    border-top: 2px solid #000000;
 }
 
 .what-you-need {
-    width: 45%;
+    width: 33%;
     float:right; 
+    padding-left:100px;
 }
 
 /* Times to swim table*/
@@ -159,12 +165,10 @@ h2 {
 }
 
 #times-of-the-year {
-    height: 75px;
-    width: 100%;
+    width: 33%;
     
     font-family:quicksand,sans-serif;
     text-transform: capitalize;
-    font-size: 100%;
     letter-spacing: 3px;
     line-height: 75px;
 }
