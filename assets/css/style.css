@@ -8,9 +8,11 @@
 
 
 body {
-    font-family: quicksand, sans-serif;
     font-weight: 400;
-    color: #A87A64;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    line-height: 75px;
+    font-family: quicksand, arial;
 }
 
 /* Headings and logo*/
@@ -21,45 +23,29 @@ header {
     background-color: #000000;
 }
 
-h1 {
+h1, h2 {
     font-family: noto+sans+jp, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 3px;
     color: #fdfdff;
-    ;
-}
-
-h2 {
-    font-family: noto+sans+jp, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    color: #000000;
-    margin: 20px;
-    ;
+    
 }
 
 .logo {
     float: left;
-    font-size: 300%;
-    margin-left: 25px;
+    font-size: 60%;
+    margin-left: 10px;
 }
 
 /* Menu Navigation*/
 
 .navigation-options {
-    font-size: 110%;
+    font-size: 50%;
     letter-spacing: 3px;
-}
-
-.logo,
-.navigation-options {
-    line-height: 75px;
 }
 
 .navigation-options li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .navigation-options a {
@@ -85,25 +71,22 @@ h2 {
 }
 
 #hero-image-about {
-    font-size: 110%;
+    font-size: 40%;
     font-family: noto+sans+jp, sans-serif;
     letter-spacing: 3px;
 
-    width: 420px;
+    width: 25%;
     height: 150px;
-
-    padding-left: 10px;
-    padding-top: 5px;
 
     background-color: #000000;
 
     bottom: 50px;
-    right: 450px;
+    right: 20%;
 
     position: absolute;
 }
 
-#hero-image-about > h2, h3 {
+#hero-image-about > h3, p {
     color: #fdfdff;
 }
 
@@ -113,31 +96,29 @@ h2 {
 .benefits-section {
     height: 300px;
     width: 100%;
-}
-
-#main-benefits,
-.benefits-left,
-.benefits-right
-{
     letter-spacing: 3px;
     line-height: 75px;
 }
 
 #main-benefits {
     height: 75px;
+    font-size: 40%;
+
     background-color: #000000;
 
     font-family: quicksand, sans-serif;
-    text-transform: capitalize;
+    text-decoration: none;
 
 }
 
 #benefits-left {
     float: left;
+    width: 50%;
 }
 
 #benefits-right {
     float: right;
+    width: 50%;
 }
 
 
@@ -159,12 +140,12 @@ h2 {
 
     font-family: quicksand, sans-serif;
     text-transform: capitalize;
+
+    font-size: 40%;
 }
 
 .table {
     float: left;
-    padding-left: 100px;
-    padding-top: 20px;
 }
 
 .equipment {
@@ -193,7 +174,7 @@ footer {
 
 footer i {
     color: #fdfdff;
-    font-size: 150%;
+    font-size: 60%;
     margin: 1%;
     padding: 5%;
 }
