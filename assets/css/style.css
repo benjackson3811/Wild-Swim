@@ -95,7 +95,8 @@ header {
 /* benefits*/
 
 .benefits-section {
-    letter-spacing: 3px;   
+    letter-spacing: 3px;
+    font-weight: 200;   
 }
 
 #benefits-background {
@@ -103,7 +104,7 @@ header {
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 50% 700px;
+    background-size: cover;
     background-position: center;
     overflow: hidden;
     color: #000000;
@@ -111,7 +112,7 @@ header {
 
 #main-benefits, #what-is-needed {
     height: 50px;
-    font-size: 100%;
+    font-size: 80%;
     line-height: 50px;
 
     background-color: #A87A64;
@@ -124,31 +125,61 @@ header {
 }
 
 .benefits-box {
-    padding: 5px 10px;
+    
 	background-color: rgb(168, 122, 100);
     color: #fdfdff;
+    font-size: 80%;
 
     top: 150px;
 }
 
 #benefits-left {
-    float: left;
     position: relative;
     width: 30%;
     left: 25px;
+    top: 30px;
 }
 
 #benefits-right {
-    float: right;
     position: relative;
     width: 25%;
-    right: 25px;
+    left: 25px;
+    bottom:30px;
 }
 
 #benefits-left li {
     list-style-type: none;
+    font-weight: 200;
 }
 
  #benefits-right li {
     list-style-type: none;
+    font-weight: 200;
+}
+
+/* What is needed*/
+
+.what-is-needed-section {
+    letter-spacing: 3px;   
+    background-color: aqua;
+}
+
+
+/* Times to swim table*/
+
+#table {
+    color: #A87A64;
+    float: right;
+}
+
+/* footer */
+
+footer {
+	background-color: #000000;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
 }
