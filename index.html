@@ -21,7 +21,7 @@
                 <!-- Nav bar links nav: An element to contain blocks of site navigation links. This element is typically placed in the page header and footer, and may also be used in an aside (sidebar) element as well.-->
                 <ul class="navigation-options">
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li>
                         <a href="#what-is-needed">Equipment</a>
@@ -76,31 +76,50 @@
             <ul>
                 <li>A safe place to swim</li>
                 <li>A brightly coloured swimming hat</li>
-                <li>A swimming costumer, Wet suit and boots</li>
+                <li>A swimming costume, Wet suit and boots</li>
                 <li>Friends to Swim with</li>
             </ul>
         </div>
+        <div id="locations" class="what-is-needed-box">
+            <h3>Locations you can Wild Swim</h3>
+            <ul>
+                <li>The Sea</li>
+                <li>Lakes in a National Park</li>
+                <li>An organised Swim in your local</li>
+                <li>Any boady of Water- as long as its safe</li>
+            </ul>
+        </div>
         <table id="table" class="what-is-needed-box">
-                <tr Best Times to Wild Swim>
-                    <th>Season</th>
-                    <th>Winter</th>
-                    <th>Spring</th>
-                    <th>Summer</th>
-                    <th>Autumn</th>
-                </tr>
-                </tr>
-                <tr>
-                    <td>Water Temp (C)</td>
-                    <td>6-10</td>
-                    <td>11-14</td>
-                    <td>15-20</td>
-                    <td>11-14</td>
-                </tr>
+            <tr Best Times to Wild Swim>
+                <th>Season</th>
+                <th>Winter</th>
+                <th>Spring</th>
+                <th>Summer</th>
+                <th>Autumn</th>
+            </tr>
+            </tr>
+            <tr>
+                <td>Av Water Temp (C)</td>
+                <td>6-10</td>
+                <td>11-14</td>
+                <td>15-20</td>
+                <td>11-14</td>
+            </tr>
         </table>
     </section>
-    <section>
-        <form>
-
+    <section id="Contact">
+        <h2 id="recommended-locations">Contact us with your Recommended Locations</h2>
+        <form class="input-locations">
+            <label for="fname">First Name</label>
+            <input type=text id="fname" name="first-name" class="form-input" required>
+            <label for="lname">Last Name</label>
+            <input type=text id="lname" name="last-name" class="form-input" required>
+            <label for="email">Email Address</label>
+            <input type=email id="email" name="email" class="form-input" required>
+            <label for="recommended-locations">Your Recommended Location</label>
+            <input id="recommended-locations" name="rec-locations" class="form-input" required>
+            <Label for="ability">Swim ability needed for locations</Label>
+            <input type="radio" id="ability" name="ability-needed" class="form-input">
         </form>
     </section>
     <section>

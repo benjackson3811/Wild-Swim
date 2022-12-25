@@ -147,8 +147,8 @@ header {
     float: right;
     text-align: center;
 
-    padding: 2% 1%;
-    margin: 2%;
+    padding: 1%;
+    margin: 1%;
 }
 
 #benefits-left-ul,
@@ -169,28 +169,29 @@ header {
 
 
 
-/* What is needed*/
+/* Equipment needed*/
 
 .what-is-needed-section {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: 200;
+    height: 300px;
 }
 
 .what-is-needed-box {
     background-color: rgb(168, 122, 100);
     color: #fdfdff;
-    font-size: 80%;
+    font-size: 70%;
 
     top: 150px;
 }
 
 #equipment  {
-    width: 30%;
+    width: 33%;
     float: left;
     text-align: center;
 
-    padding: 2%;
-    margin: 2%;
+    padding: 0.5%;
+    margin: 0.5%;
 }
 
 #equipment ul {
@@ -203,17 +204,60 @@ header {
     font-weight: 200;
 }
 
+/*locations to swim */
+
+#locations {
+    width: 30%;
+    float: right;
+    text-align: center;
+
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+#locations ul {
+    text-align: left;
+    line-height: 30px;
+}
+
+#locations li {
+    list-style-type: none;
+    font-weight: 200;
+}
 
 /* Times to swim table*/
 
 #table {
     width: 30%;
-    float: right;
+    float: center;
     text-align: center;
 
-    padding: 2%;
-    margin: 2%;
+    padding: 0.5%;
+    margin: 0.5%;
 }
+
+/*form section*/
+
+#recommended-locations {
+    height: 50px;
+    font-size: 70%;
+    line-height: 50px;
+
+    background-color: #A87A64;
+    color: #fdfdff;
+
+    font-family: quicksand, sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.input-locations {}
+
+.form-input {}
+
+.form-input:hover {
+    text-decoration: none;
+    color: #A87A64;}
 
 /* footer */
 
