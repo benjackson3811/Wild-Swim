@@ -89,19 +89,19 @@ header {
     font-size: 80%;
     font-weight: thin;
     padding: 10px;
-  
+
 }
 
 /* benefits*/
 
 .benefits-section {
     letter-spacing: 3px;
-    font-weight: 200;   
+    font-weight: 200;
 }
 
 #benefits-background {
     background-image: url(../images/benefits-background.jpg);
-    height: 700px;
+    height: 300px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +110,8 @@ header {
     color: #000000;
 }
 
-#main-benefits, #what-is-needed {
+#main-benefits,
+#what-is-needed {
     height: 50px;
     font-size: 80%;
     line-height: 50px;
@@ -125,8 +126,7 @@ header {
 }
 
 .benefits-box {
-    
-	background-color: rgb(168, 122, 100);
+    background-color: rgb(168, 122, 100);
     color: #fdfdff;
     font-size: 80%;
 
@@ -134,17 +134,27 @@ header {
 }
 
 #benefits-left {
-    position: relative;
     width: 30%;
-    left: 25px;
-    top: 30px;
+    float: left;
+    text-align: center;
+
+    padding: 2% 1%;
+    margin: 2%;
 }
 
 #benefits-right {
-    position: relative;
     width: 25%;
-    left: 25px;
-    bottom:30px;
+    float: right;
+    text-align: center;
+
+    padding: 2% 1%;
+    margin: 2%;
+}
+
+#benefits-left-ul,
+#benefits-right-ul {
+    text-align: left;
+    line-height: 30px;
 }
 
 #benefits-left li {
@@ -152,34 +162,67 @@ header {
     font-weight: 200;
 }
 
- #benefits-right li {
+#benefits-right li {
     list-style-type: none;
     font-weight: 200;
 }
 
+
+
 /* What is needed*/
 
 .what-is-needed-section {
-    letter-spacing: 3px;   
-    background-color: aqua;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.what-is-needed-box {
+    background-color: rgb(168, 122, 100);
+    color: #fdfdff;
+    font-size: 80%;
+
+    top: 150px;
+}
+
+#equipment  {
+    width: 30%;
+    float: left;
+    text-align: center;
+
+    padding: 2%;
+    margin: 2%;
+}
+
+#equipment ul {
+    text-align: left;
+    line-height: 30px;
+}
+
+#equipment li {
+    list-style-type: none;
+    font-weight: 200;
 }
 
 
 /* Times to swim table*/
 
 #table {
-    color: #A87A64;
+    width: 30%;
     float: right;
+    text-align: center;
+
+    padding: 2%;
+    margin: 2%;
 }
 
 /* footer */
 
 footer {
-	background-color: #000000;
-	text-align: center;
+    background-color: #000000;
+    text-align: center;
     width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-	z-index: 3;
+    z-index: 3;
 }
