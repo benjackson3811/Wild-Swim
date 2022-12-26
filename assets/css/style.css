@@ -111,9 +111,9 @@ header {
 }
 
 #main-benefits,
-#what-is-needed {
+#what-is-needed, #recommended-locations {
     height: 50px;
-    font-size: 80%;
+    font-size: 100%;
     line-height: 50px;
 
     background-color: #A87A64;
@@ -173,8 +173,7 @@ header {
 
 .what-is-needed-section {
     letter-spacing: 2px;
-    font-weight: 200;
-    height: 300px;
+    height: 225px;
 }
 
 .what-is-needed-box {
@@ -207,7 +206,7 @@ header {
 /*locations to swim */
 
 #locations {
-    width: 30%;
+    width: 33%;
     float: right;
     text-align: center;
 
@@ -238,22 +237,22 @@ header {
 
 /*form section*/
 
-#recommended-locations {
-    height: 50px;
-    font-size: 70%;
-    line-height: 50px;
+.contact {
+    letter-spacing: 2px;
+    height: 900px;
+}
+.input-locations {
+    width: 33%;
+    background-position: center;
+    left: 15%;
+    background-color: rgb(6, 13, 13,0.7);
+    width: 30%;
 
-    background-color: #A87A64;
-    color: #fdfdff;
-
-    font-family: quicksand, sans-serif;
-    text-decoration: none;
-    text-align: center;
 }
 
-.input-locations {}
+.form-input {
 
-.form-input {}
+}
 
 .form-input:hover {
     text-decoration: none;
