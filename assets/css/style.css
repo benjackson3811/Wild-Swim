@@ -22,7 +22,7 @@ header {
 
 .logo {
     float: left;
-    font-size: 100%;
+    font-size: 200%;
     margin-left: 10px;
     letter-spacing: 3px;
     line-height: 75px;
@@ -32,7 +32,7 @@ header {
 /* Menu Navigation*/
 
 .navigation-options {
-    font-size: 90%;
+    font-size: 140%;
     letter-spacing: 3px;
     line-height: 75px;
 }
@@ -71,10 +71,11 @@ header {
 }
 
 #hero-image-about {
-    font-size: 100%;
+    font-size: 110%;
     font-family: noto+sans+jp, sans-serif;
     letter-spacing: 3px;
     text-align: center;
+    line-height: 25px;
 
     width: 100%;
     height: 50px;
@@ -86,7 +87,7 @@ header {
 
 #hero-image-about h3 {
     color: #fdfdff;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: thin;
     padding: 10px;
 
@@ -179,7 +180,7 @@ header {
 .what-is-needed-box {
     background-color: rgb(168, 122, 100);
     color: #fdfdff;
-    font-size: 70%;
+    font-size: 80%;
 
     top: 150px;
 }
@@ -239,33 +240,64 @@ header {
 
 .contact {
     letter-spacing: 2px;
-    height: 900px;
 }
 .input-locations {
-    width: 33%;
-    background-position: center;
-    left: 15%;
-    background-color: rgb(6, 13, 13,0.7);
-    width: 30%;
+    height: 350px;
+    width: 40%;
+    
+    left: 100px;
+    top: 50px;
+    background-color: rgb(168, 122, 100);
+    color: #fdfdff;
+
+    padding: 10px;
+    margin: 100px 150px;
+    
 
 }
 
 .form-input {
+    width: 100%;
+    height: 30px;
+}
+
+.form-submit {
+    background-color: #000000;
+    color: #fdfdff;
+    font-size: 100%;
+    text-align: center;
+    margin: 20px 100px;
+    border: solid 1px rgb(168, 122, 100);
+    padding: 2%;
+}
+
+.form-submit:hover {
+    text-decoration: none;
+    color: #A87A64;
+    }
+
+  
+/* footer */
+
+footer{
+    height: 150px;
+    background-color: #000000;
+    color: white;
+    bottom: 0px;
+}
+
+.social-networks{
+    text-align: center;
 
 }
 
-.form-input:hover {
-    text-decoration: none;
-    color: #A87A64;}
+.social-networks li{
+    display: inline;
+}
 
-/* footer */
-
-footer {
-    background-color: #000000;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
