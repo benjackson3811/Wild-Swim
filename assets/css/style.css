@@ -19,6 +19,8 @@ header {
     height: 75px;
     width: 100%;
     background-color: #000000;
+    position: fixed;
+    top: 0;
 }
 
 .logo {
@@ -36,12 +38,14 @@ header {
     font-size: 140%;
     letter-spacing: 3px;
     line-height: 75px;
+
 }
 
 .navigation-options li {
     float: right;
     list-style-type: none;
-    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 5px;
 }
 
 .navigation-options a {
@@ -50,13 +54,14 @@ header {
 }
 
 .navigation-options a:hover {
-    text-decoration: none;
+    text-decoration: underline wavy;
     color: #A87A64;
 }
 
 /* hero image*/
 
 #hero-section {
+    margin-top: 30px;
     position: static;
 }
 
@@ -73,23 +78,19 @@ header {
 
 #hero-image-about {
     font-size: 110%;
-    font-family: noto+sans+jp, sans-serif;
+    font-family: noto+sans+jpß sans-serif;
     letter-spacing: 3px;
     text-align: center;
     line-height: 25px;
-
     width: 100%;
     height: 50px;
-
     background-color: #000000;
-
     padding: 5px;
 }
 
 #hero-image-about h3 {
     color: #fdfdff;
     font-size: 100%;
-    font-weight: thin;
     padding: 10px;
 }
 
@@ -101,13 +102,8 @@ header {
 }
 
 #benefits-background {
-    height: 700px;
+    height: 1150px;
     width: 100%;
-    background: url(../images/hero-image-1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
 }
 
 #main-benefits,
@@ -116,135 +112,136 @@ header {
     height: 50px;
     font-size: 100%;
     line-height: 50px;
-
     background-color: #A87A64;
     color: #fdfdff;
-
     font-family: quicksand, sans-serif;
     text-decoration: none;
     text-align: center;
 
 }
 
+#benefits-video {
+    display:block; 
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 20px;
+}
+
 .benefits-box {
-    background-color: #000000;
-    color: #fdfdff;
+    background-color: #fdfdff;
+    color: #000000;
     font-size: 80%;
-
-    top: 150px;
-    padding: 0px 20px;
-    margin: 20px;
-    border: 20px;
+    border: 3px solid #A87A64;   
 }
 
-#benefits-left {
-    width: 30%;
-    float: left;
+#benefits-top, #benefits-bottom {
     text-align: center;
-
     padding: 2% 1%;
-    margin: 2%;
+    margin: auto;
+}
+#benefits-video-2 {
+    display:block; 
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 20px;
 }
 
-#benefits-right {
-    width: 25%;
-    float: left;
-    clear: left;
+#benefits-top-ul,
+#benefits-bottom-ul {
     text-align: center;
-
-    padding: 2% 1%;
-    margin: 2%;
-}
-
-#benefits-left-ul,
-#benefits-right-ul {
-    text-align: left;
     line-height: 30px;
 }
 
-#benefits-left li {
+#benefits-top li {
     list-style-type: none;
     font-weight: 200;
 }
 
-#benefits-right li {
+#benefits-bottom li {
     list-style-type: none;
     font-weight: 200;
 }
 
-
+#benefits-research {
+    text-align: center;
+    padding: 2% 1%;
+    margin: auto;
+}
 
 /* Equipment needed*/
 
 .what-is-needed-section {
     letter-spacing: 2px;
-    height: 225px;
-    height: 700px;
-    width: 100%;
-    background: url(../images/hero-image-1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+    height: 1410px;
 }
 
 .what-is-needed-box {
-    background-color: #000000;
-    color: #fdfdff;
+    background-color: #fdfdff;
+    color: #000000;
     font-size: 80%;
-
-    top: 150px;
+    border: 3px solid #A87A64; 
 }
 
-#equipment {
-    width: 33%;
-    float: left;
-    text-align: center;
+#swimming-tips {
+        display:block; 
+        margin: 0 auto;
+        width: 35%;
+        padding-top: 20px;
+    }
 
-    padding: 0.5%;
-    margin: 0.5%;
+#equipment {
+    text-align: center;
+    padding: 2% 1%;
+    margin: auto;
 }
 
 #equipment ul {
     text-align: left;
     line-height: 30px;
+    text-align: center;
 }
 
 #equipment li {
     list-style-type: none;
     font-weight: 200;
+    text-align: center;
+
 }
 
 /*locations to swim */
 
-#locations {
-    width: 33%;
-    float: left;
-    text-align: center;
+#swimming-map {
+    display:block; 
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 20px;
+}
 
-    padding: 0.5%;
-    margin: 0.5%;
+#locations {
+    text-align: center;
+    padding: 2% 1%;
+    margin: auto;
 }
 
 #locations ul {
     text-align: left;
     line-height: 30px;
+    text-align: center;
 }
 
 #locations li {
     list-style-type: none;
     font-weight: 200;
+    text-align: center;
 }
 
 /* Times to swim table*/
 
 #table {
-    width: 30%;
-    float: center;
-    text-align: center;
-
-    padding: 0.5%;
-    margin: 0.5%;
+        margin: auto;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
 }
 
 /*form section*/
@@ -252,7 +249,7 @@ header {
 .contact {
     letter-spacing: 2px;
     width: 100%;
-    background: url(../images/hero-image-1.webp);
+    background: url(../images/content-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -261,15 +258,15 @@ header {
 
 .input-locations {
     height: 400px;
-    width: 40%;
+    width: 60%;
 
-    left: 100px;
+    left: 75px;
     top: 50px;
     background-color: rgb(168, 122, 100);
     color: #fdfdff;
 
     padding: 10px;
-    margin: 100px 150px 100px 150px;
+    margin: 75px 150px 75px 100px;
 }
 
 .form-input {
@@ -282,13 +279,13 @@ header {
     color: #fdfdff;
     font-size: 100%;
     text-align: center;
-    margin: 20px 100px;
+    margin: 20px 75px;
     border: solid 1px rgb(168, 122, 100);
     padding: 1%;
 }
 
 .form-submit:hover {
-    text-decoration: none;
+    text-decoration: underline wavy;
     color: #A87A64;
 }
 
@@ -298,13 +295,12 @@ header {
 footer {
     height: 75px;
     background-color: #000000;
-    color: white;
     bottom: 0px;
+    width: 100%;
 }
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks li {
@@ -319,16 +315,37 @@ footer {
     color: #fdfdff;
 }
 
+.social-networks li a {
+    color: white;
+}
+
 /* Responsive design media queries */
 
 @media only screen and (max-width: 850px) {
-    
+
     header {
-        font-size: 50%;
+        height: 100px;
+    }
+
+    .logo {
+        float: left;
+        font-size: 110%;
+        width: 100%;
+        line-height: 50px;
     }
 
     .navigation-options {
-        font-size: 50%;
+        float: left;
+        clear: both;
+        font-size: 60%;
+        overflow: hidden;
+        line-height: 25px;
+        width: 100%;
+    }
+
+    .navigation-options li {
+        float: left;
+        margin-left: 10px;
     }
 
     #hero-image-about {
@@ -337,53 +354,75 @@ footer {
     }
 
     #hero-image-about h3 {
-        height: 100px;
+        height: 75px;
         padding: 1px 10px;
         clear: both;
         margin: 1px;
         border: #fdfdff;
+        font-size: 80%;
     }
-        
+
+    #benefits-video {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    #benefits-video-2 {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        overflow: hidden;
+    }
     #main-benefits,
     #what-is-needed,
     #recommended-locations {
-        height: 100px;
+        height: 75px;
         width: 100%;
+        font-size: 80%;
     }
-    
-    #benefits-left {
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin: 0;
-    }
-    
-    #benefits-right {
+
+    #benefits-top {
         width: 100%;
         float: left;
         padding: 0;
         margin: 0;
     }
-    
-    #equipment,#locations {
+
+    #benefits-bottom {
         width: 100%;
         float: left;
         padding: 0;
         margin: 0;
     }
+    #swimming-tips {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+
+    #equipment {
+    text-align: center;
+    padding: 2% 1%;
+    margin: auto;
+    }
     
-   .what-is-needed-section {
-    height: 450px;
-   }
+    #swimming-map {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        overflow: hidden;
+    }
     
+
     #table {
         width: 100%;
-        float: center;
-        padding: 0%;
+        padding: 5%;
         clear: both;
         margin: 0;
         height: 75px;
-    }    
+    }
 
     .input-locations {
         height: 500px;
@@ -393,5 +432,12 @@ footer {
         margin: 20px 10px;
         padding: 1%;
     }
-}
 
+    .social-networks i {
+        font-size: 50%;
+    }
+
+    .social-networks li a {
+        font-size: 80%;
+    }
+}

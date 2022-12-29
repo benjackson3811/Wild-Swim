@@ -13,24 +13,24 @@
 </head>
 
 <body>
-    <Header fixed>
+    <Header>
         <nav>
-            <a href="index.html">
-                <h1 class="logo">Wild Swimming</h1>
-                <ul class="navigation-options">
-                    <li>
-                        <a href="#recommended-locations">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#what-is-needed">Equipment</a>
-                    </li>
-                    <li>
-                        <a href="#main-benefits">Benefits</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
+            <a href="index.html" aria-label="Go to Homepage"></a>
+            <h1 class="logo">Wild Swimming</h1>
+            <ul class="navigation-options">
+                <li>
+                    <a href="#recommended-locations" aria-label="Contact Us">Contact</a>
+                </li>
+                <li>
+                    <a href="#what-is-needed" aria-label="What information you will need">Equipment</a>
+                </li>
+                <li>
+                    <a href="#main-benefits" aria-label="What the main benefits are">Benefits</a>
+                </li>
+                <li>
+                    <a href="index.html" aria-label="Go to Home Page ">Home</a>
+                </li>
+            </ul>
         </nav>
     </Header>
     <!--Hero image -->
@@ -44,23 +44,33 @@
     <section class="benefits-section">
         <h2 id="main-benefits">What are the benefits of Wild Swimming?</h2>
         <div id="benefits-background">
-            <div id="benefits-left" class="benefits-box">
-                <h3>Having New Experiences</h3>
-                <ul id="benefits-left-ul">
-                    <li>Experience Nature in a new way</li>
-                    <li>Make new Friends allong the way</li>
-                    <li>Swim organised races or on spontaneous dips</li>
-                    <li>Challenge your self</li>
-                    <li>And have loads of Fun</li>
+            <div id="benefits-top" class="benefits-box">
+                <div id="benefits-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pyMd7pivF4E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <h3>Why Should you try Wild Swimming?</h3>
+                <ul id="benefits-top-ul">
+                    <li>Its a Challenge!</li>
+                    <li>You can make new Friends</li>
+                    <li>Improve Your Mental Health</li>
+                    <li>Experiance Nature in New Ways</li>
+                    <li>Release more endorphins (happy hormones)</li>
                 </ul>
             </div>
-            <div id="benefits-right" class="benefits-box">
+            <div id="benefits-bottom" class="benefits-box">
                 <h3>Enjoy Health Benefits</h3>
-                <ul id="benefits-right-ul">
-                    <li>Weight loss</li>
-                    <li>Minimise Pain</li>
-                    <li>Immune System Boost</li>
-                    <li>Personal Achievement</li>
+                <div id="benefits-video-2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/b3kvHu-ACRs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <ul id="benefits-bottom-ul">
+                    <li>Experiance being in the moment!</li>
+                    <li>Minimise Pain (Proven by Science)</li>
                     <li>Increasing Your Energy</li>
                 </ul>
             </div>
@@ -70,16 +80,28 @@
     <section class="what-is-needed-section">
         <h2 id="what-is-needed">What do you need to start Wild Swimming?</h2>
         <div id="equipment" class="what-is-needed-box">
-            <h3>Checklist to start swimming</h3>
+            <h3>Essential Skills and Tips</h3>
+            <div id="swimming-tips">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WLtCGn2_Qt0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
             <ul>
-                <li>A safe place to swim</li>
-                <li>A brightly coloured swimming hat</li>
-                <li>A swimming costume, Wet suit and boots</li>
+                <li>Prepare for Cold Water</li>
+                <li>How to find a safe place</li>
+                <li>Equipment - A swimming costume, Wet suit and boots</li>
+                <li>Confidence - to swim in open water</li>
                 <li>Friends to Swim with</li>
+                <li>Staying orientated in the water</li>
             </ul>
         </div>
         <div id="locations" class="what-is-needed-box">
             <h3>Locations you can Wild Swim</h3>
+            <div id="swimming-map">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1J_SjOpekARtnH3mmyOAQngSfUXw&ehbc=2E312F"
+                    width="640" height="480"></iframe>
+            </div>
             <ul>
                 <li>The Sea</li>
                 <li>Lakes in a National Park</li>
@@ -106,42 +128,50 @@
         </table>
     </section>
     <section class="contact">
-            <h2 id="recommended-locations">Contact us with your Recommended Locations</h2>
-            <form class="input-locations">
-                <label for="fname">First Name</label>
-                <input type=text id="fname" name="first-name" class="form-input" required placeholder="Your First Name">
-                <label for="lname">Last Name</label>
-                <input type=text id="lname" name="last-name" class="form-input" required placeholder="Your Last Name">
-                <label for="email">Email Address</label>
-                <input type=email id="email" name="email" class="form-input" required placeholder="Your Email Address">
-                <label for="location-recommended">Your Recommended Location</label>
-                <select id="location-recommended" name="rec-locations" class="form-input" required>
-                    <option value="sea">Sea</option>
-                    <option value="lake">Lakes</option>
-                    <option value="stream">Stream</option>
-                    <option value="pond">Pond</option>
-                    <Option value="river">River</Option>
-                </select>
-                <label for="location-name">The Location's Name</label>
-                <input type="text" id="location-name" name="location-name" class="form-input" required
-                    placeholder="What is the name of the location">
-                <Label for="ability">Swim ability needed for locations</Label>
-                <select id="ability" name="ability-needed" class="form-input" required>
-                    <option value="none">None</option>
-                    <option value="basic">Basic</option>
-                    <option value="intermediate">Intermediate</option>
-                    <option value="expert">Expert</option>
-                </select>
-                <input type="submit" value="Share the location" class="form-submit">
-            </form>
+        <h2 id="recommended-locations">Contact us with your Recommended Locations</h2>
+        <form class="input-locations">
+            <label for="fname">First Name</label>
+            <input type=text id="fname" name="first-name" class="form-input" required placeholder="Your First Name">
+            <label for="lname">Last Name</label>
+            <input type=text id="lname" name="last-name" class="form-input" required placeholder="Your Last Name">
+            <label for="email">Email Address</label>
+            <input type=email id="email" name="email" class="form-input" required placeholder="Your Email Address">
+            <label for="location-recommended">Your Recommended Location</label>
+            <select id="location-recommended" name="rec-locations" class="form-input" required>
+                <option value="sea">Sea</option>
+                <option value="lake">Lakes</option>
+                <option value="stream">Stream</option>
+                <option value="pond">Pond</option>
+                <Option value="river">River</Option>
+            </select>
+            <label for="location-name">The Location's Name</label>
+            <input type="text" id="location-name" name="location-name" class="form-input" required
+                placeholder="What is the name of the location">
+            <Label for="ability">Swim ability needed for locations</Label>
+            <select id="ability" name="ability-needed" class="form-input" required>
+                <option value="none">None</option>
+                <option value="basic">Basic</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option>
+            </select>
+            <input type="submit" value="Share the location" class="form-submit">
+        </form>
     </section>
     <footer>
         <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook<i class="fab fa-facebook"></i></a>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="See recommended locations on our facebook pages">Facebook<i
+                        class="fab fa-facebook"></i></a>
             </li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener">twitter<i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram<i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener">Youtube<i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="See recommended locations on our twitter pages">Twitter<i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="See recommended locations on our Instagram pages">Insta<i
+                        class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="See recommended locations on our Youtube pages">Youtube<i
+                        class="fab fa-youtube-square"></i></a></li>
         </ul>
     </footer>
 
