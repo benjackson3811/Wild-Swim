@@ -37,7 +37,6 @@ This is the readme file to accompany you through the design process for <a href=
 * (**Deployment**)(<#deployment>)
 * (**Credits**)(<#credits>)
     * (**Content**)(<#content>)
-    * (**media**)(<#media>)
 
 
 ## Scope
@@ -156,6 +155,59 @@ The Wild Swimming website is designed to welcoming, informative and responsive. 
 
 ## Testing 
 
+# How the Code has been Validated.
+
+The Wild Swimming has been tested through the [W3C-Validator](https://validator.w3.org/), [CSS-validator](https://jigsaw.w3.org/css-validator/) and [Dev-Tools].
+
+![HTML-validation-report](assets/readme-images/HTML%20validator%20report.png)
+    * The site has been successfully tested on the HTML W3C validator website.
+
+![CSS-validation-report](assets/readme-images/CSS%20Validator%20report.png)
+    * The site has been successfully tested on the CSS W3C validator website.
+
+![Lighthouse-report](assets/readme-images/lighthouse-report.png)
+    * The site has been checked and tested on Google Dev Tools lighthouse acessibility report.
+
+## Testing conclusions
+    * The lighthouse report shows the wesbite has poor performance on how it loads.
+    It scored well for;
+        * Accessibility (how accessible the site is for users).
+        * Best Practices (Whether the site conforms to industry best practises).
+        * SEO (Search engine optimisation) - can it be found on search engines.
+
+    
+    * Browser Compatability.
+        The wesbite has been tested on the Google Chrome, Microsoft Edge, Safari and Firefox. On each site i was able to.
+            * Navigat through the whole site.
+
+
+    * Resonsive functionality - Website Formating.
+        * with the testing on the site. Example of webiste formating has been found and fixed.
+
+![formating-testing](assets/readme-images/Formating%20Testing%20fix.png)
+
+
+
+## Deployment
+
+    * The website was deployed to Github pages. This is done by;
+    1. Going onto the Github repository.
+    2. Click on the Setting section on the navigatio bar.
+    3. Click on Pages.
+    4. Click on the source section - below the URL.
+
+Live link to the Wild Swimming link is https://benjackson3811.github.io/Wild-wimming-project/
+
+## Credits.
+ * Social Media HTML and CSS from the Code Institue. Love Running Project
+ * Fonts from Google Fonts
+ * Map from Google Maps.
+ * YouTube Video from Youtube.
+ * Icons froms Font Awesome.
+ * Photos from Pexels
+
+     
+
 
 
 
@@ -163,10 +215,4 @@ The Wild Swimming website is designed to welcoming, informative and responsive. 
 
 	
  
-Bugs
-Testing
-html validator
-css validate
-Lighthouse
-Credits
-Systems used
+
