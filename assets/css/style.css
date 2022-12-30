@@ -77,21 +77,21 @@ header {
 }
 
 #hero-image-about {
-    font-size: 110%;
+    font-size: 160%;
     font-family: noto+sans+jpß sans-serif;
     letter-spacing: 3px;
     text-align: center;
     line-height: 25px;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: #000000;
-    padding: 5px;
+    padding-top: 15px;
+    padding-left: 5px;
 }
 
-#hero-image-about h3 {
+#hero-image-about h2 {
     color: #fdfdff;
-    font-size: 100%;
-    padding: 10px;
+
 }
 
 /* benefits*/
@@ -102,13 +102,14 @@ header {
 }
 
 #benefits-background {
-    height: 1150px;
+    height: 950px;
     width: 100%;
 }
 
 #main-benefits,
 #what-is-needed,
-#recommended-locations {
+#recommended-locations,
+#best-times {
     height: 50px;
     font-size: 100%;
     line-height: 50px;
@@ -121,29 +122,29 @@ header {
 }
 
 #benefits-video {
-    display:block; 
+    display: block;
     margin: 0 auto;
     width: 35%;
-    padding-top: 20px;
 }
 
 .benefits-box {
     background-color: #fdfdff;
     color: #000000;
     font-size: 80%;
-    border: 3px solid #A87A64;   
+    border: 3px solid #A87A64;
 }
 
-#benefits-top, #benefits-bottom {
+#benefits-top,
+#benefits-bottom {
     text-align: center;
     padding: 2% 1%;
     margin: auto;
 }
+
 #benefits-video-2 {
-    display:block; 
+    display: block;
     margin: 0 auto;
     width: 35%;
-    padding-top: 20px;
 }
 
 #benefits-top-ul,
@@ -179,15 +180,15 @@ header {
     background-color: #fdfdff;
     color: #000000;
     font-size: 80%;
-    border: 3px solid #A87A64; 
+    border: 3px solid #A87A64;
 }
 
 #swimming-tips {
-        display:block; 
-        margin: 0 auto;
-        width: 35%;
-        padding-top: 20px;
-    }
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    padding-top: 20px;
+}
 
 #equipment {
     text-align: center;
@@ -211,7 +212,7 @@ header {
 /*locations to swim */
 
 #swimming-map {
-    display:block; 
+    display: block;
     margin: 0 auto;
     width: 35%;
     padding-top: 20px;
@@ -238,10 +239,10 @@ header {
 /* Times to swim table*/
 
 #table {
-        margin: auto;
-        width: 100%;
-        padding: 20px;
-        text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
 }
 
 /*form section*/
@@ -259,12 +260,10 @@ header {
 .input-locations {
     height: 400px;
     width: 60%;
-
     left: 75px;
     top: 50px;
     background-color: rgb(168, 122, 100);
     color: #fdfdff;
-
     padding: 10px;
     margin: 75px 150px 75px 100px;
 }
@@ -321,6 +320,8 @@ footer {
 
 /* Responsive design media queries */
 
+
+
 @media only screen and (max-width: 850px) {
 
     header {
@@ -334,8 +335,19 @@ footer {
         line-height: 50px;
     }
 
-    .navigation-options {
-        float: left;
+    /* Menu Navigation*/
+
+    .navigation-options li {
+        display: none;
+    }
+
+    .mobile-navigation-options {
+        font-size: 140%;
+        letter-spacing: 3px;
+        line-height: 75px;
+    }
+
+    .mobile-navigation-options {
         clear: both;
         font-size: 60%;
         overflow: hidden;
@@ -343,43 +355,60 @@ footer {
         width: 100%;
     }
 
-    .navigation-options li {
+    .mobile-navigation-options li {
         float: left;
         margin-left: 10px;
+        list-style-type: none;
     }
+
+    .mobile-navigation-options a {
+        text-decoration: none;
+        color: #fdfdff;
+    }
+
+    .mobile-navigation-options a:hover {
+        text-decoration: underline wavy;
+        color: #A87A64;
+    }
+
+    /*Hero image*/
 
     #hero-image-about {
-        height: 100px;
+        height: 60px;
         width: 100%;
+        font-size: 90%;
+        padding-top: 5px;
     }
 
-    #hero-image-about h3 {
-        height: 75px;
-        padding: 1px 10px;
-        clear: both;
-        margin: 1px;
-        border: #fdfdff;
-        font-size: 80%;
+    #hero-image-about h2 {
+        height: 60px;
+        padding-bottom: 10px;
+    }
+
+    /*Benefits */
+
+    .benefits-section {
+        height: 1020;
     }
 
     #benefits-video {
         float: left;
         width: 100%;
-        padding-top: 20px;
         overflow: hidden;
     }
+
     #benefits-video-2 {
         float: left;
         width: 100%;
-        padding-top: 20px;
         overflow: hidden;
     }
+
     #main-benefits,
     #what-is-needed,
     #recommended-locations {
-        height: 75px;
+        height: 50px;
         width: 100%;
-        font-size: 80%;
+        font-size: 75%;
     }
 
     #benefits-top {
@@ -392,9 +421,19 @@ footer {
     #benefits-bottom {
         width: 100%;
         float: left;
-        padding: 0;
+        padding: 5px;
         margin: 0;
     }
+
+    #benefits-bottom h3 {
+        padding: 10px 0px;
+    }
+
+    /*What is needed*/
+    .what-is-needed-section {
+        height: 1385px;
+    }
+
     #swimming-tips {
         float: left;
         width: 100%;
@@ -403,29 +442,38 @@ footer {
     }
 
     #equipment {
-    text-align: center;
-    padding: 2% 1%;
-    margin: auto;
+        text-align: center;
+        padding: 0px 10px;
+        margin: auto;
     }
-    
+
+    #equipment h3 {
+        padding-top: 10px;
+    }
+
     #swimming-map {
         float: left;
         width: 100%;
         padding-top: 20px;
         overflow: hidden;
     }
-    
+
+    #locations h3 {
+        padding-top: 10px;
+    }
 
     #table {
         width: 100%;
-        padding: 5%;
+        padding: 10px;
         clear: both;
         margin: 0;
         height: 75px;
     }
 
+    /* Form */
+
     .input-locations {
-        height: 500px;
+        height: 400px;
     }
 
     .form-submit {
@@ -439,5 +487,73 @@ footer {
 
     .social-networks li a {
         font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    #hero-image-about h2 {
+        font-size: 80%;
+        height: 75px;
+        padding: 0px;
+    }
+
+    .what-is-needed-section {
+        height: 1450px;
+    }
+
+    .benefits-section {
+        height: 980px;
+    }
+    
+    #table .what-is-needed-box {
+        padding: 0;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    
+    #mobile-navigation-options li {
+        display: none;
+    }
+   
+    #hero-image-about {
+        height: 75px;
+        font-size: 90%;
+    }
+
+    .benefits-section {
+        height: 1050px;
+    }
+    
+    #benefits-bottom h3{
+        padding-bottom: 10px;
+    }
+
+    #swimming-tips {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    
+    #benefits-video {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #benefits-video-2 {
+        float: left;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #swimming-map {
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        overflow: hidden;
     }
 }
