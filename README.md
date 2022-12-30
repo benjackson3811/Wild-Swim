@@ -51,11 +51,20 @@ The puropse of the Wild Swimming website is to show:
 
 The wireframe designs were created in [Balsamiq](http://balsamiq.com).The frames are for Destop/ Laptop, Mobile and Tablet Devices. Any variance in the design occurred in the development process.
 
-![Desktop/ Laptop wireframe image] (assets/images/readme-images/laptop-wireframes/laptop-homepage.png)(assests/images/readme-images/laptop-wireframes/laptop - benefits page.png)(assests/images/readme-images/laptop-wireframes/laptop - equipment page.png)(assests/images/readme-images/laptop-wireframes/laptop - contact page.png)
+![Laptop-wireframes](assets/readme-images/laptop-wireframes/Laptop%20-%20homepage%20.png)
+![laptop-wireframes](assets/readme-images/laptop-wireframes/Laptop%20-%20benefits%20page.png)
+![laptop-wireframes](assets/readme-images/laptop-wireframes/Laptop%20-%20equipment%20page.png)
+![laptop-wireframes](assets/readme-images/laptop-wireframes/Laptop%20-%20contact%20page.png)
 
-![Mobile wireframe image] (assets/images/readme-images/mobile-wireframes/mobile - homepage.png)(assets/images/readme-images/mobile-wireframes/mobile - benefits page.png)(assets/images/readme-images/mobile-wireframes/mobile - equipment page.png)(assets/images/readme-images/mobile-wireframes/mobile - contact page.png)
+![mobile-wireframes](assets/readme-images/mobile-wireframes/Mobile%20-%20homepage.png)
+![mobile-wireframes](assets/readme-images/mobile-wireframes/Mobile%20-%20benefits%20page.png)
+![mobile-wireframes](assets/readme-images/mobile-wireframes/Mobile%20-%20equipment%20page.png)
+![mobile-wireframes](assets/readme-images/mobile-wireframes/Mobile%20-%20contact%20page.png)
 
-![Tablet wireframe image] (assets/images/readme-images/tablet-wireframes/Tablet - Home page.png)(assets/images/readme-images/tablet-wireframes/Tablet - benefits page.png)(assets/images/readme-images/tablet-wireframes/Tablet - equipment page.png)(assets/images/readme-images/tablet-wireframes/Tablet - contact page.png)
+![tablet-wireframe](assets/readme-images/tablet-wireframes/Tablet%20-%20Home%20page.png)
+![tablet-wireframe](assets/readme-images/tablet-wireframes/Tablet%20-%20benefits%20page.png)
+![tablet-wireframe](assets/readme-images/tablet-wireframes/Tablet%20-%20equipment%20page.png)
+![tablet-wireframe](assets/readme-images/tablet-wireframes/Tablet%20-%20contact%20page.png)
 [Back to top] (<#content>)
 
 ## Site Structure
@@ -70,32 +79,90 @@ The navigation bar is fixed on the top of the website to allow the user to get b
 ## Design Choices
 
 * ### Colour Scheme
-    The colour scheme chosen for the website was a simple black, white and red. The reason for the choice was to portray the information is a simple yet striking manner.
-    ![Colour Palate image](assets/readme-images/Colour%20Palate.png)
+    The colour scheme chosen for the website was a simple black, white and red. 
+    The reason for the choice was to portray the information is a simply yet striking manner.
+    ![Colour Palate](assets/readme-images/Colour%20Palate.png)
 
 * ### Typography 
     The fonts chosen for the website were Roboto for the body and Quicksand for the headings. They were chosen for the mark contrast between them. 
     Roboto was chosen for the offical, newspaper feel, for the main information.
     Quicksand was chosen because its easy to read and nicely contrasts with Roboto  
+[Back to top] (<#content>)
+
+
+# Features
+
+The Wild Swimming website is designed to welcoming, informative and responsive. It follows the standard website functionality of a Logo and Navigation bar on the top of the screen. 
+
+    ## Functional Features 
+* ### Navigation Menu
+        * A single location for the user to navigate to all of the sections of the website. Each links changes color and underlines to show the reader which page they have clicked on.
+
+        * Logo situated at the top left of the screen, this is also a home button.
+![Logo-image](assets/readme-images/Logo.png)
+        * Navigation - placed at the top right of the screen. 
+![navigation-bar](assets/readme-images/Navigation-bar.png)
+[Back to top] (<#content>)
+
+ * ### About Wild Swimming 
+        A call to arms with a hero image and a very brief description of Wild Swimming, all age groups can go. 
+![Hero-image](assets/readme-images/Hero-image.png)
+        * The image is designed to show people of all ages and ability swimming.
+![hero-image-about](assets/readme-images/Hero-image-about.png)
+        * A brief description of what Wild Swimming is.
+[Back to top] (<#content>)
+
+ * ### Benefits
+        * Split into two sections each with a Youtube video links.
+            * Section 1 provides reasons why the reader should try wild swimming.
+            * The Youtube video provides a simple medium for the reader to be passed information.
+![Benefits](assets/readme-images/Benefits.png)
+        * Section 2 - shows proven health benefits from wild swimming.
+            * The Youtube video provides a simple medium for the reader to be passed information.
+![health-benefits](assets/readme-images/Health-benefits.png)
+[Back to top] (<#content>)
+
+### Equipment
+        * Sections is provider information on what is need to start swimming, how it is different from in-door swimming.
+        * The sections provide practical advise in brief sentences to mirror the messages in the youtube video.
+        * Youtube as the medium for information. This is because it can provide allot of information very easily.
+![Location](assets/readme-images/Equipment.png)
+[Back to top] (<#content>)
+
+#### Locations
+        * Section with specific location recommendations.
+        * Designed to provide the reader with ideas and locations they can wild swim near ther house.
+![location-map](assets/readme-images/Locations.png)
+[Back to top] (<#content>)
+
+### Contact
+        * Contact form designed to allow the reader to send in their recommeneded locations.
+        * Form input for people to provide their contact details as well as the recommendation name, location and ability to swim there.
+![contact](assets/readme-images/Contact-us.png)
+[Back to top] (<#content>)
+
+### footer
+        * Contains social media and Safe swimming links - link to other guides and emergency services.
+        * These links will provide the read more data on what Wild swimming is, where they can do it, why they should do it and peoples of other people do it.
+![Footer](assets/readme-images/Footer.png)
+[Back to top] (<#content>)
+
+# Technologies Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - language used to present the structure and content of the site.
+* [CSS] (https://en.wikipedia.org/wiki/CSS) - used to provide style to meesage presented by the HTML. 
+* [Balsamiq](http://balsamiq.com) - software used to create draft wireframe of the website.
+* [Gitpod](https://www.gitpod.io/docs/introduction/getting-started) - used to deploy the website on to the web.
+* [Github](https://github.com/) - used to host the website.
+
+## Testing 
 
 
 
-Features 
-- Navigation- Title Top left, Navigation links on the top right. 
-- Home
-- About. Important information - Description of Wild Swimming, all age groups can go. 
-- Benefits - proven benefits of wild swimming for reader. The times you can swim.
-- Recommended Locations . Section with specific location recommendations, the skill needed to swim at the location.
-- Contact . - with form input for people to provide new recommendations.
-- Footer
-	Social media and Safe swimming links - link to other guides and emergency services.
+
+
+
+	
  
-Wireframe designs
-created in balsamic
-design choices
-fonts used
-colour choices
-Features
 Bugs
 Testing
 html validator
