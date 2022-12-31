@@ -185,7 +185,7 @@ The Wild Swimming has been tested through the [W3C-Validator](https://validator.
 ![CSS-validation-report](assets/readme-images/CSS%20validation%20report.png)
 * The site has been successfully tested on the CSS W3C validator website.
 
-![Lighthouse-report](assets/readme-images/lighthouse-report.png)
+![Lighthouse-report](assets/readme-images/lighthouse%20report.png)
 * The site has been checked and tested on Google Dev Tools lighthouse accessibility report.
 
 [Back to top](<#contents>)
