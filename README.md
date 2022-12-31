@@ -16,7 +16,7 @@ This is the readme file to accompany you through the design process for <a href=
 # Contents
 * [**Website Scope and Design Choices**](<#scope>)
     * [Purpose](<#purpose>)
-    * [Wireframe-Draft-Designs] (<#wireframes>)
+    * [Wireframe-Draft-Designs](<#wireframes>)
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
         * [Colour Scheme](<#colour-scheme>)
@@ -24,7 +24,7 @@ This is the readme file to accompany you through the design process for <a href=
 * [**Website Design**](<#features>)
     * [**Home**](<#navigation-menu>)
         * [Navigation menu](<#navigation-menu>)
-        * [about]<#about>
+        * [About](<#about>)
         * [Benefits](<#benefits>)
         * [Equipment](<#Equipment>)
         * [Locations](<#Equipment>)
@@ -68,10 +68,10 @@ The wireframe designs were created in [Balsamiq](http://balsamiq.com).The frames
 
 ## Site Structure
 The Wild Swimming Website was designed to be a single scroll website for four sections. It has a default loading page with each section accessible from the navigation page.
- * [Homepage] (index.html) 
- * [Benefits] (#main-benefits).
- * [Equipment] (#what-is-needed).
- * [Contact] (#recommended-locations)
+ * [Homepage](index.html) 
+ * [Benefits](#main-benefits).
+ * [Equipment](#what-is-needed).
+ * [Contact](#recommended-locations)
 The navigation bar is fixed on the top of the website to allow the user to get back to the top easily.
 
 [Back to top](<#contents>)
@@ -182,7 +182,7 @@ The Wild Swimming has been tested through the [W3C-Validator](https://validator.
 ![HTML-validation-report](assets/readme-images/HTML%20validator%20report.png)
 * The site has been successfully tested on the HTML W3C validator website.
 
-![CSS-validation-report](assets/readme-images/CSS%20Validator%20report.png)
+![CSS-validation-report](assets/readme-images/CSS%20validation%20report.png)
 * The site has been successfully tested on the CSS W3C validator website.
 
 ![Lighthouse-report](assets/readme-images/lighthouse-report.png)
@@ -217,7 +217,7 @@ The website has been tested on the Google Chrome, Microsoft Edge, Safari and Fir
     3. Click on Pages.
     4. Click on the source section - below the URL.
 
-Live link to the Wild Swimming link is https://benjackson3811.github.io/Wild-wimming-project/
+Live link to the Wild Swimming link is https://benjackson3811.github.io/Wild-Swim/
 
 [Back to top](<#contents>)
 

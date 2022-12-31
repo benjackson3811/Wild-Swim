@@ -325,6 +325,26 @@ footer {
 /* Responsive design media queries */
 
 
+@media only screen and (max-width: 650px) {
+
+    #hero-image-about h2 {
+        font-size: 80%;
+        height: 75px;
+        padding: 0px;
+    }
+
+    .what-is-needed-section {
+        height: 1450px;
+    }
+
+    .benefits-section {
+        height: 1000px;
+    }
+    
+    #table .what-is-needed-box {
+        padding: 0;
+    }
+}
 
 @media only screen and (max-width: 850px) {
 
@@ -493,29 +513,7 @@ footer {
         font-size: 80%;
     }
 }
-
-@media only screen and (max-width: 650px) {
-
-    #hero-image-about h2 {
-        font-size: 80%;
-        height: 75px;
-        padding: 0px;
-    }
-
-    .what-is-needed-section {
-        height: 1450px;
-    }
-
-    .benefits-section {
-        height: 1000px;
-    }
-    
-    #table .what-is-needed-box {
-        padding: 0;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
 
     #hero-image-about {
         height: 75px;
@@ -557,7 +555,7 @@ footer {
     }
 
     .what-is-needed-section {
-        height: 1410px;
+        height: 1450px;
     }
 
     #table {
@@ -577,10 +575,10 @@ footer {
 
     @media only screen and (min-width: 1250px) {
         .what-is-needed-section {
-            height: 1435px;
+            height: 1473px;
         }
 
         #benefits-background {
-            height: 1015px;
+            height: 1114px;
         }
     }
