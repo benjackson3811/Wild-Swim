@@ -179,7 +179,7 @@ The Wild Swimming website is designed to welcoming, informative and responsive. 
 
 The Wild Swimming has been tested through the [W3C-Validator](https://validator.w3.org/), [CSS-validator](https://jigsaw.w3.org/css-validator/) and [Dev-Tools].
 
-![HTML-validation-report](assets/readme-images/HTML%20validator%20report.png)
+![HTML-validation-report](assets/readme-images/HTML%20validator%20report%20final.png)
 * The site has been successfully tested on the HTML W3C validator website.
 
 ![CSS-validation-report](assets/readme-images/CSS%20validation%20report.png)
@@ -205,7 +205,12 @@ The website has been tested on the Google Chrome, Microsoft Edge, Safari and Fir
 * Responsive functionality - Website formatting.
 * with the testing on the site. Example of website formatting has been found and fixed.
 
+![html-validator-testing](assets/readme-images/HTML%20validation%20report%20error.png)
+* From the HTML validator - the above error was found and corrected.
+
+
 ![formatting-testing](assets/readme-images/Formating%20Testing%20fix.png)
+* With the testing of the formatting of the Benefits and Equiupment section. Examples of the about formatting were found and fixed.
 
 [Back to top](<#contents>)
 
