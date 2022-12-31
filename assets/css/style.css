@@ -241,6 +241,9 @@ header {
 }
 
 /* Times to swim table*/
+#table caption {
+padding: 20px 0px;
+}
 
 #table {
     margin: auto;
@@ -454,9 +457,7 @@ footer {
     }
 
     /*What is needed*/
-    .what-is-needed-section {
-        height: 1380px;
-    }
+
 
     #swimming-tips {
         float: left;
